@@ -53,7 +53,7 @@ def mail():
 
 def send_mail():
     buying_discount = 30  # 30%(percent)
-    if discount <= buying_discount:
+    if discount >= buying_discount:
         mail()
 
 
