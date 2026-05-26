@@ -1,0 +1,15 @@
+# 1. Hide your private passwords and email keys
+.env
+
+# 2. Hide downloaded web scraping test files
+*.html
+*.txt
+
+# 3. Hide your massive Python virtual environment folders
+.venv/
+venv/
+ENV/
+
+# 4. Hide temporary Python speed-cache files
+__pycache__/
+*.pyc
